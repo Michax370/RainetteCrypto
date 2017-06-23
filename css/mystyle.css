@@ -1,0 +1,304 @@
+#logo {
+    background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+    background-position: 50%;
+	height: 207px;
+}
+
+h1{
+	font-weight: bold;
+	color:  rgb(186,221,181)!important;
+	font-size: 40px;
+}
+
+h2,p{
+	color: black;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 375px;
+    background-color: rgb(186,221,181);
+	border-radius: 10px 10px 10px 10px;
+}
+
+ul li{
+	padding-left:0px;
+}
+#menu li a {
+    display: block;
+    color: white;
+    padding: 8px 0 8px 0px;
+    text-decoration: none;
+	text-align : center;
+	font-size: 25px;
+	
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+li:first-child a:hover{
+	border-radius: 10px 10px 0px 0px;
+}
+
+#bienvenue{
+	font-size: 40px;
+	text-align: center;
+}
+
+#loginform
+{
+   width:500px;
+   height:50%;
+   margin-left:33%;
+   background-color:#48737c;
+   border-radius:3px;
+   box-shadow:0px 0px 10px 0px #424242;
+   padding:10px;
+   box-sizing:border-box;
+   font-family:helvetica;
+}
+#loginform #close_login
+{
+   position:absolute;
+   top:140px;
+   left:735px;
+   width:15px;
+   height:15px;
+}
+#loginform p
+{
+   margin-top:40px;
+   font-size:22px;
+   color:#E6E6E6;
+}
+
+#loginform #erreur
+{
+   margin-top:15px;
+   font-size:22px;
+   color: #6897bb;
+}
+
+#loginform #login
+{
+   width:250px;
+   height:40px;
+   border:2px solid silver;
+   border-radius:3px;
+   padding:5px;
+   margin-top: -26px;
+}
+
+#loginform #create_account
+{
+   margin-top: 11px;
+}
+
+#loginform #password
+{
+   margin-top:5px;
+   width:250px;
+   height:40px;
+   border:2px solid silver;
+   border-radius:3px;
+   padding:5px;
+   background: #fff;
+}
+#loginform #dologin
+{
+   margin-left:-5px;
+   margin-top:10px;
+   width:250px;
+   height:40px;
+   border:none;
+   border-radius:3px;
+   color:#E6E6E6;
+   background-color:#6897bb;
+   font-size:20px;
+   padding-bottom: 55px;
+}
+
+.content div {
+  float: left;
+  clear: none; 
+}
+
+#connectedAs{
+	margin-top: -299px;
+	float: right;
+	position: relative;
+    background: #f1f1f1;
+    width: 245px;
+    border-radius: 3px;#f1f1f1;
+    text-align: center;
+    margin-right: 15px;
+}
+
+#stats_content .buttons{
+	margin-left: 72px;
+	margin-bottom: 15Px
+}
+
+#stats th, #optim_couts th{
+	font-size: 1.5em;
+	text-align: center;
+	padding-top: 10px;
+}
+
+#optim_couts th, #orderProductsTable th,  #sales_entryTable th {
+	font-size: 1.2em;
+	text-align: center;
+	padding-top: 10px;
+}
+
+#stats tr, #optim_couts tr{
+	text-align: center;
+}
+
+#stats{
+	width: 90%;
+	margin-left: 72px;
+}
+
+#optim_couts{
+	margin-left: auto;
+    margin-right: auto;
+	width: 23%;
+}
+	
+#back_to_menu{
+	margin-top: -210px;
+	margin-left: 10px;
+}
+
+#stockProduitA{
+	margin-bottom: 40px;
+}
+
+#stockProduitB{
+	margin-bottom: 25px;
+}
+
+#orderProductsTable{
+	margin-left: 32%;
+	width: 23%;
+}
+
+#formUpdateInfos label, #createAccountForm label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
+}
+
+#formUpdateInfos input, #createAccountForm input, #createAccountForm select{
+  display: inline-block;
+  float: left;
+}
+
+#formUpdateInfos{
+    margin-left: 415px;
+}
+
+#createAccountForm{
+    margin-left: 475px;
+}
+
+#valider_update_infos {
+    margin-top: 50px;
+    margin-left: -178px;
+}
+
+#sales_entry select, #orderProductsTable select,  #createAccountForm select{
+	background: white;
+}
+
+#sales_entryTable{
+	width: 63%;
+	margin-left: 288px;
+}
+
+#sales_entryTable th:nth-child(3){
+	width: 10%;
+}
+
+#sales_entryTable th:nth-child(1), th:nth-child(2){
+	width: 22%;
+}
+
+#sales_entryTable th:nth-child(4){
+	width: 13%;
+}
+
+#sales_entryTable th:nth-child(5){
+	width: 1%;
+}
+
+#sales_entryTable #qte, #revendeur, #produit, #montant,#add_row{
+	width: 100%;
+}
+
+#sales_entryTable th {
+	font-size: 0.8em;
+	text-align: center;
+	padding-top: 10px;
+}
+
+#orderProductsTable select{
+	width: 175px;
+}
+
+#createAccountForm  #type_revendeur{
+	width: 200px;
+	margin-bottom: 10px;
+}
+
+#createAccountForm  #password, #passconfirm{
+	width: 197px;
+	background: white;
+}
+
+#createAccountForm #createAccount{
+	margin-top: 72px;
+	margin-left: -263px;
+}
+
+#selectProduct{
+	width: 185px;
+	background: white;
+	margin-top: 13px;
+	display: inline-block;
+}
+
+#lblprd{
+	display: inline-block;
+}
+
+#optim_couts_content #bouttonsProduits{
+	margin-bottom: 20px;
+}
+
+#optim_couts_content input[type="button"]{
+	margin-right: 15px;
+}
+
+#optim_couts_content #selectPays{
+	width: 12%;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#optim_couts_content #add_column{
+	width: 100%;
+}
+
+#optim_couts_content .add_row{
+	width: 100%;
+}
